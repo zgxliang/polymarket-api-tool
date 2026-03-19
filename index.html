@@ -26,6 +26,21 @@
       color: white;
       padding: 30px;
       text-align: center;
+      position: relative;
+    }
+    .build-info {
+      background: rgba(255,255,255,0.2);
+      backdrop-filter: blur(10px);
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 12px;
+      display: inline-block;
+      margin-top: 15px;
+      border: 1px solid rgba(255,255,255,0.3);
+    }
+    .build-info .time {
+      font-weight: 700;
+      color: #fff;
     }
     .content { padding: 30px; }
     .step { display: none; }
@@ -79,6 +94,10 @@
     <div class="header">
       <h1>🔮 Polymarket API Key</h1>
       <p>一键获取你的 API 凭证</p>
+      <div class="build-info">
+        版本更新: <span class="time">2026-03-19 17:31:49 +0800</span> |
+        提交: 3e73b2c | Add vercel.json rewrite rules
+      </div>
     </div>
     
     <div class="content">
