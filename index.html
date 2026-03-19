@@ -209,7 +209,7 @@
     async function getApiKey() {
       try {
         // 调用 Vercel API
-        const response = await fetch('/api', {
+        const response = await fetch('/api/', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ address, signature, timestamp, nonce })
